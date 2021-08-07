@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@@title</title>
+    <meta charset="UTF-8">
+    <meta content="telephone=no" name="format-detection">
+
+    <link href="scss/css/style.css" rel="stylesheet">
+    <link href="bootstrap-5.0.2/scss/css/bootstrap.css" rel="stylesheet">
+
+
+    <link href="favicon.ico" rel="shortcut icon">
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header__content">
+            <div class="header__menu menu navbar navbar-expand-lg">
+
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler bg-light navbar-light" data-bs-target="#navbarSupportedContent"
+                        data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <ul class="menu__body collapse navbar-collapse" id="navbarSupportedContent">
+                    <li class="header__left"><img src="img/icons/logo.svg" width="120" height="24" alt="logo"
+                                                  class="header__logo"></li>
+                    <li class="header__middle">
+                        <ul class="header__middle__list">
+                            <li><a href="" class="menu__item">About Us</a></li>
+                            <li><a href="" class="menu__item">Services</a></li>
+                            <li><a href="" class="menu__item">Testimonials</a></li>
+                            <li><a href="" class="menu__item menu_active">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__right"><a href="#" class="button">SEND US A MESSAGE</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main class="page">
+        <section class="connect">
+            <div class="connect__container _container">
+                <div id="connect__bg"></div>
+                <h1 class="connect__title title">LET'S CONNECT</h1>
+
+
+                <form action="sendmail.php" method="get" class="connect__form form">
+                    <div class="form__top">
+                        <h2 class="form__title title-sm">SEND US A MESSAGE</h2>
+                        <input type="text" placeholder="NAME" class="form__item _req"/>
+                        <input type="text" placeholder="Email" class="form__item _email _req"/>
+                        <input type="text" placeholder="WhatsApp No" class="form__item"/>
+                    </div>
+                    <div class="form__bottom">
+                        <textarea class="form__item textarea" name="message" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button">SEND</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </section>
+
+        <section class="clients__say">
+            <div class="clients__say__container _container">
+
+                <div class="feedback__items">
+                    <div class="feedback__item _hidden" data-tab-content
+                         id="tab-1">"Nunc vitae neque faucibus, aliquam sapien sed, facilisis orci. Ut vel risus metus.
+                        Vestibulum elit elit, pretium vel consequat tincidunt, tristique vitae felis. Ut et justo est.
+                        Fusce ut euismod diam. Aliquam erat volutpat. Sed feugiat leo sapien, ac fermentum libero
+                        gravida at. Ut sit amet aliquam tellus. In nec justo mi."
+                    </div>
+                    <div class="feedback__item" data-tab-content
+                         id="tab-2">"Praesent vitae tortor metus. Vestibulum eget venenatis mauris, ut ultricies eros.
+                        Aenean id faucibus velit, ut tincidunt quam. Proin eu velit lorem. In ac ipsum et massa iaculis
+                        vehicula ac eu urna. Quisque laoreet libero eu erat porttitor, at consectetur urna tincidunt.
+                        Morbi quis odio libero. Mauris odio ante, cursus at volutpat quis, fermentum eget urna."
+                    </div>
+                    <div class="feedback__item _hidden" data-tab-content
+                         id="tab-3">"Suspendisse ut nisl enim. Class aptent taciti sociosqu ad litora torquent per
+                        conubia nostra, per inceptos himenaeos. Etiam quis vestibulum nisl. Donec id tristique dui. Duis
+                        nec metus mauris. Nullam id ante lobortis, maximu"
+                    </div>
+                    <div class="feedback__item _hidden" data-tab-content
+                         id="tab-4">“Proin eleifend ligula sed venenatis maximus. Nam et orci nec tortor facilisis
+                        luctus
+                        eget non lacus. Morbi non ultrices nulla. Nullam sodales vulputate mauris, sit amet maximus
+                        turpis
+                        iaculis et. Sed posuere, metus et faucibus auctor, velit arcu scelerisque leo, pulvinar posuere
+                        augue nibh vel libero. Sed non pretium nunc. Integer sagittis ultricies ex, ullamcorper gravida
+                        eros
+                        tincidunt non..”
+                    </div>
+                    <div class="feedback__item _hidden" data-tab-content
+                         id="tab-5">“Vivamus in nunc finibus sapien posuere condimentum. Curabitur feugiat metus eget
+                        dui
+                        sollicitudin, eget gravida tellus bibendum. Sed eu mi id nunc iaculis blandit non vel urna.
+                        Nulla
+                        iaculis nisi finibus leo dictum, ut iaculis lectus placerat. Ut ut fermentum lacus, et pharetra
+                        arcu. Mauris a viverra libero. Vivamus commodo, justo quis tristique luctus.”
+                    </div>
+                    <div class="feedback__item _hidden" data-tab-content
+                         id="tab-6">“Morbi quis consequat turpis. Donec a justo id mi pulvinar varius eget ut felis.
+                        Suspendisse potenti. Praesent tincidunt rutrum felis, et ullamcorper sapien tempus ac. Aenean
+                        sit
+                        amet ipsum vitae leo scelerisque pretium. Aliquam consequat nibh vitae enim ornare sodales.s.”
+                    </div>
+                </div>
+                <div class="clients">
+                    <div class="owl-carousel owl-theme owl-loaded">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="client d-flex" data-tab="tab-1">
+                                        <div class="client__img"><img src="img/icons/client.png" width="49" height="49"
+                                                                      alt="client">
+                                        </div>
+                                        <div class="clients__description">
+                                            <div class="client__name">Lara Madrigal</div>
+                                            <div class="client__role text-sm">Client</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="owl-item">
+                                    <div class="client d-flex _active" data-tab="tab-2">
+                                        <div class="client__img"><img src="img/icons/client.png" width="49" height="49"
+                                                                      alt="client">
+                                        </div>
+                                        <div class="clients__description">
+                                            <div class="client__name">Aristotle</div>
+                                            <div class="client__role text-sm">Client</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="client d-flex" data-tab="tab-3">
+                                        <div class="client__img"><img src="img/icons/client.png" width="49" height="49"
+                                                                      alt="client">
+                                        </div>
+                                        <div class="clients__description">
+                                            <div class="client__name">Mary Anning</div>
+                                            <div class="client__role text-sm">Client</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="client d-flex" data-tab="tab-4">
+                                        <div class="client__img"><img src="img/icons/client.png" width="49" height="49"
+                                                                      alt="client">
+                                        </div>
+                                        <div class="clients__description">
+                                            <div class="client__name">Anaximander</div>
+                                            <div class="client__role text-sm">Client</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="client d-flex" data-tab="tab-5">
+                                        <div class="client__img"><img src="img/icons/client.png" width="49" height="49"
+                                                                      alt="client">
+                                        </div>
+                                        <div class="clients__description">
+                                            <div class="client__name">André-Marie Ampère</div>
+                                            <div class="client__role text-sm">Client</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="client d-flex" data-tab="tab-6">
+                                        <div class="client__img"><img src="img/icons/client.png" width="49" height="49"
+                                                                      alt="client">
+                                        </div>
+                                        <div class="clients__description">
+                                            <div class="client__name">Luis Alvarez</div>
+                                            <div class="client__role text-sm">Client</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container _container">
+            <div class="footer__header">
+                <div class="footer__title subtitle">Make your dreams a <i class="orange">reality</i></div>
+                <a href="#" class="button btn-warning">Work with us <i class="far fa-long-arrow-right"></i></a>
+            </div>
+            <div class="footer__links ">
+                <div class="links__col social__media">
+
+                    <div class="logo"><img alt="footer logo" src="img/icons/logo.svg"></div>
+                    <ul class="socials">
+                        <li><a class="socials__item" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="socials__item" href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a class="socials__item" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a class="socials__item" href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="links__col company">
+                    <div class="links__title">Column Heading</div>
+                    <ul class="links__menu company__menu">
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+
+                    </ul>
+                </div>
+                <div class="links__col explore">
+                    <div class="links__title">Column Heading</div>
+                    <ul class="links__menu explore__menu">
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+
+                    </ul>
+                </div>
+                <div class="links__col terms">
+                    <div class="links__title">Column Heading</div>
+                    <ul class="links__menu terms__menu">
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+                        <li><a class="links__link" href="#">Link goes here</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+</div>
+
+<script crossorigin="anonymous"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+        src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<!--<script src="owlcarousel/owlJS/owl.carousel.min.js"></script>-->
+<script src="js/libs/smoothScroll.js"></script>
+<!--<script src="js/app.js"></script>-->
+
+
+<!--<script src="js/files/forms.js"></script>-->
+<!--<script src="js/files/functions.js"></script>-->
+<!--<script src="js/files/regular.js"></script>-->
+<!--<script src="js/files/script.js"></script>-->
+<!--<script src="js/files/scroll.js"></script>-->
+<!--<script src="js/files/sliders.js"></script>-->
+<script src="js/forms.js"></script>
+<script src="js/script.js"></script>
+
+<!--	boostrap-->
+<script src="bootstrap-5.0.2/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+//====================================================================================================
+.page {
+}
+
+.page__container {
+
+}
+
+
+.connect {
+  text-align: center;
+
+  .connect__container {
+    @include blogs-padding(150px, 150px);
+    position: relative;
+
+  }
+  #connect__bg{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background: #1C50E0;
+    border-radius: 137px 137px 137px 0px;
+    z-index: -1;
+  }
+
+
+    .connect__title {
+      font-size: 50px;
+      padding: 8% 6%;
+      text-align: left;
+      color: #FFFfff;
+       @media (max-width: $md3+px) {
+         text-align: center;
+       }
+
+    }
+
+
+
+
+  .connect__form {
+    max-width: 1072px;
+    margin: 0 auto;
+    background: #2978FD;
+    padding: 60px 90px;
+    border-radius: 77px 77px 0px 77px;
+    @media (max-width: $md2+px) {
+      padding: 50px 70px;
+    }
+     @media (max-width: $md3+px) {
+       padding: 40px 8%;
+     }
+
+
+    .form__item {
+      width: 100%;
+      background: transparent;
+      font-size: 20px;
+      color: #FFFfff;
+
+      border-bottom: 1px solid #FFFfff;
+      padding: 30px 20px 30px 10px;
+      margin-bottom: 10px;
+
+      transition: border-color .5s ease-out;
+
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:focus{
+        border-color: orange;
+      }
+    }
+
+    .form__item::placeholder {
+      font-size: 20px;
+      color: #FFFfff;
+      text-transform: uppercase;
+    }
+    ._error{
+      border-color: red;
+    }
+
+
+    .form__top {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10%;
+
+      .form__title {
+        margin-bottom: 60px;
+        font-size: 20px
+      }
+
+      .form__item {
+        height: 32px;
+
+      }
+
+    }
+
+    .form__bottom {
+      display: flex;
+      flex-direction: column;
+
+      .textarea {
+        flex-grow: 1;
+        resize: vertical;
+        padding: 30px 20px 0px 10px;
+
+
+      }
+
+      .button {
+        align-self: flex-end;
+      }
+    }
+  }
+
+
+  .button {
+    align-self: center;
+
+  }
+}
+
+
+
+
+
+
+
+//====================================================================================================
